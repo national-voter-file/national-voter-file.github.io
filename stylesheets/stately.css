@@ -2,8 +2,8 @@
 *************************************/
 @font-face {
   font-family: 'stately-webfont';
-  src: url("/fonts/stately-webfont.eot");
-  src: url("/fonts/stately-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/stately-webfont.woff") format("woff"), url("/fonts/stately-webfont.ttf") format("truetype"), url("/fonts/stately-webfont.svg#testfontRegular") format("svg");
+  src: url("../fonts/stately-webfont.eot");
+  src: url("../fonts/stately-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/stately-webfont.woff") format("woff"), url("../fonts/stately-webfont.ttf") format("truetype"), url("../fonts/stately-webfont.svg#testfontRegular") format("svg");
   font-weight: normal;
   font-style: normal; }
 /* line 13, _setup.scss */
