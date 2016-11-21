@@ -75,56 +75,87 @@ body {
 /* line 21, site.css.scss */
 .container {
   max-width: 700px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  overflow: hidden; }
 
-/* line 26, site.css.scss */
+/* line 27, site.css.scss */
 header {
   width: 200px;
   float: left; }
-  /* line 30, site.css.scss */
+  /* line 31, site.css.scss */
   header img {
-    max-width: 68px; }
+    max-width: 68px;
+    margin-bottom: 10px; }
 
-/* line 35, site.css.scss */
+/* line 37, site.css.scss */
 section {
   width: 500px;
   float: right; }
 
-/* line 40, site.css.scss */
+/* line 42, site.css.scss */
 h1 {
   margin: 0;
   font-size: 36px;
   line-height: 32px;
   color: #333; }
 
-/* line 47, site.css.scss */
+/* line 49, site.css.scss */
 p {
   margin-top: 20px; }
-  /* line 50, site.css.scss */
+  /* line 52, site.css.scss */
   p a {
     color: #222; }
 
-/* line 55, site.css.scss */
+/* line 57, site.css.scss */
+label {
+  color: #2980B9;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 13px;
+  font-family: "Lucida Grande"; }
+
+/* line 65, site.css.scss */
 li {
   list-style: none;
-  margin-top: 20px; }
-  /* line 59, site.css.scss */
+  margin-top: 5px;
+  display: block; }
+  /* line 70, site.css.scss */
   li a {
     color: #C0392B; }
 
+/* line 75, site.css.scss */
+.stately {
+  width: 300px;
+  font-size: 300px;
+  color: #f0f0f0;
+  margin-top: 20px;
+  position: relative;
+  left: -10px; }
+
+/* line 84, site.css.scss */
+.stately .wa,
+.stately .oh,
+.stately .ny {
+  color: #333; }
+
+/* line 90, site.css.scss */
+.stately .fl,
+.stately .nc {
+  color: #2980B9; }
+
 @media (max-width: 840px) {
-  /* line 65, site.css.scss */
+  /* line 96, site.css.scss */
   body {
     padding: 15px; }
 
-  /* line 69, site.css.scss */
+  /* line 100, site.css.scss */
   header, section {
     float: none; }
 
-  /* line 73, site.css.scss */
+  /* line 104, site.css.scss */
   header li {
     display: none; }
 
-  /* line 77, site.css.scss */
+  /* line 108, site.css.scss */
   section {
     margin-top: 15px; } }
