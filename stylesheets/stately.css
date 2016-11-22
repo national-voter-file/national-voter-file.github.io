@@ -8,7 +8,7 @@
   font-style: normal; }
 /* line 13, _setup.scss */
 .stately {
-  font: normal normal 300px "stately-webfont";
+  font: normal normal 500px "stately-webfont";
   line-height: 100%;
   font-size-adjust: none;
   -webkit-text-rendering: optimizeLegibility;
@@ -20,7 +20,7 @@
   -ms-font-feature-settings: "liga" 1;
   -ms-font-feature-settings: "liga", "dlig";
   overflow: hidden;
-  width: 300px;
+  width: 500px;
   display: block;
   padding: 0;
   list-style: none;

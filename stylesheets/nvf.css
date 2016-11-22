@@ -125,8 +125,8 @@ li {
 
 /* line 75, nvf.css.scss */
 .stately {
-  width: 300px;
-  font-size: 300px;
+  width: 500px;
+  font-size: 500px;
   color: #f0f0f0;
   margin-top: 20px;
   position: relative;
@@ -136,12 +136,12 @@ li {
 .stately .wa,
 .stately .oh,
 .stately .ny {
-  color: #333; }
+  color: #2980B9; }
 
 /* line 90, nvf.css.scss */
 .stately .fl,
 .stately .nc {
-  color: #2980B9; }
+  color: #bedcf0; }
 
 @media (max-width: 840px) {
   /* line 96, nvf.css.scss */
