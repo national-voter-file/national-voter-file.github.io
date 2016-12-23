@@ -21,23 +21,22 @@
 	        text-rendering: optimizeLegibility;
 	-moz-font-feature-settings: "liga=1";
 	 -ms-font-feature-settings: "liga" 1;
-	 -ms-font-feature-settings: "liga", "dlig"; 
+	 -ms-font-feature-settings: "liga", "dlig";
 	overflow: hidden;
 	width: $map_width;
 	display: block;
 	padding: 0;
-	list-style: none;	
-	background: $map_bgd_color;	
+	list-style: none;
+	background: $map_bgd_color;
 	border-radius: $map_border_radius;
-	
-	li { 
+
+	li {
   	float: left;
   	margin: -20% 0 0 -100%;
   	position: relative;
   	left: 101%;
   	width: 100%;
   	cursor: default;
-  	-webkit-transition: all 1s ease-in;
   	-webkit-touch-callout: none;
   	-webkit-user-select: none;
   	 -khtml-user-select: none;
@@ -45,5 +44,5 @@
   	    -ms-user-select: none;
   	        user-select: none;
   }
-  
+
 } // .stately
