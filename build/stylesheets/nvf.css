@@ -133,16 +133,17 @@ li {
   left: -10px; }
 
 /* line 84, nvf.css.scss */
-.stately .wa,
-.stately .oh,
-.stately .ny,
+.stately .co,
 .stately .fl,
 .stately .nc,
-.stately .co,
-.stately .ok {
+.stately .ny,
+.stately .oh,
+.stately .ok,
+.stately .pa,
+.stately .wa {
   color: #2980B9; }
 
-/* line 94, nvf.css.scss */
+/* line 95, nvf.css.scss */
 .progress-bar {
   margin-top: 20px;
   border-radius: 99px;
@@ -151,34 +152,34 @@ li {
   text-transform: uppercase;
   overflow: hidden;
   font-size: 11px; }
-  /* line 103, nvf.css.scss */
+  /* line 104, nvf.css.scss */
   .progress-bar span {
     float: left;
     display: block;
     padding: 0 8px;
     box-sizing: border-box;
     text-align: center; }
-  /* line 111, nvf.css.scss */
+  /* line 112, nvf.css.scss */
   .progress-bar .done {
     color: white;
     background: #2980B9; }
-  /* line 116, nvf.css.scss */
+  /* line 117, nvf.css.scss */
   .progress-bar .to-go {
     text-align: center; }
 
 @media (max-width: 840px) {
-  /* line 122, nvf.css.scss */
+  /* line 123, nvf.css.scss */
   body {
     padding: 15px; }
 
-  /* line 126, nvf.css.scss */
+  /* line 127, nvf.css.scss */
   header, section {
     float: none; }
 
-  /* line 130, nvf.css.scss */
+  /* line 131, nvf.css.scss */
   header li {
     display: none; }
 
-  /* line 134, nvf.css.scss */
+  /* line 135, nvf.css.scss */
   section {
     margin-top: 15px; } }
