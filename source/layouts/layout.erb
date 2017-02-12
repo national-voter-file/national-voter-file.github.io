@@ -1,12 +1,33 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
-    <meta content="IE=edge" http-equiv="X-UA-Compatible">
     <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">		
     <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+    <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
     <title><%= current_page.data.title %></title>
     <link href="stylesheets/nvf.css" rel="stylesheet">
     <link href="stylesheets/stately.css" rel="stylesheet">
+
+    <meta content="<%= data.site.description %>" name='description' />
+    <meta content="<%= data.site.title %>" name="author" />
+    <!-- Facebook metadata -->
+    <meta content="<%= data.site.title %>" property="og:site_name">
+    <meta content="<%= current_page.data.title %>" property="og:title">
+    <meta content="website" property="og:type">
+    <meta content="<%= data.site.description %>" property="og:description">
+    <meta content="<%= data.site.url %>" property="og:url">
+    <meta content="<%= data.site.url + "/img/logo.png" %>" property="og:image">
+
+    <!-- Twitter metadata -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="<%= data.site.title %>">
+    <meta name="twitter:creator" content="<%= data.site.title %>">
+    <meta name="twitter:title" content="<%= current_page.data.title %>">
+    <meta name="twitter:url" content="<%= data.site.url %>">
+    <meta name="twitter:description" content="<%= data.site.description %>">
+    <meta name="twitter:image:src" content="<%= data.site.url + "/img/logo.png" %>">
   </head>
 
   <body class="<%= page_classes %>">
