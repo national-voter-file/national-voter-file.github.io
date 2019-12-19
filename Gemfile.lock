@@ -39,8 +39,8 @@ GEM
     fast_blank (1.0.0)
     fastimage (2.0.1)
       addressable (~> 2)
-    ffi (1.9.14)
-    ffi (1.9.14-x86-mingw32)
+    ffi (1.11.3)
+    ffi (1.11.3-x86-mingw32)
     haml (4.0.7)
       tilt
     hamster (3.0.0)
