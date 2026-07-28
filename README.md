@@ -1,11 +1,1 @@
-To run locally:
-
-```bash
-middleman server
-```
-
-To publish:
-
-```bash
-rake publish BRANCH_NAME=master
-```
+The website got moved to https://github.com/repmyblock/website/tree/rel-2025/voter
